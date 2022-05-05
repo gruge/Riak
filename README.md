@@ -6,12 +6,7 @@ a simple run-through of Riak features and usage
 1. [What does Riak Mean?](#what-does-riak-mean)\
     1. [Pros of Riak](#pros-of-using-riak)
     2. [Cons of Riak](#cons-of-using-riak)
-    3. [Riak usage]
-2. [Riak benefits]
-    5. [RDBMS]
-    6. [NoSQL]
-    7. [Dynamo]
-3. [Riak products]
+2. [Riak products]
     1. [Riak KV]
     2. [Riak TS]
     3. [Riak CS]
@@ -35,3 +30,5 @@ Riak is highly distributed database software that provides scalable, reliable pe
  - __Dead data resurrection:__ The deletes seem to reappear weeks, even months, after the delete was issued, on rare occasions.
 
  - __Precise search:__ Currently there's no way to tell what data you have in Riak without already knowing a particular bucket/key. There is a way to list the keys for a given bucket but due to performance implications, this is not a viable method to lookup data. Especially when you have a large amount of keys in the bucket.
+
+## Riak products
