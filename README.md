@@ -1,4 +1,4 @@
-![alt text](https://github.com/gruge/Riak/tree/main/img/riak.png "riak")
+![alt text](https://github.com/gruge/Riak/tree/main/img/riak.png)
 # Riak overview
 a simple run-through of Riak features and usage
 
