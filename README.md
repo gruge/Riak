@@ -9,10 +9,10 @@ a simple run-through of Riak features and usage
 1. [What does Riak Mean?](#what-does-riak-mean)
     1. [Pros of Riak](#pros-of-using-riak)
     2. [Cons of Riak](#cons-of-using-riak)
-2. [Riak products]
-    1. [Riak KV]
-    2. [Riak TS]
-    3. [Riak CS]
+2. [Riak products](#riak-products)
+    1. [Riak KV](#riak-kv)
+    2. [Riak TS](#riak-ts)
+    3. [Riak CS](#riak-cs)
 ## What Does Riak Mean?
 Riak is an open-source, Web scalable distributed database based on the NoSQL and Dynamo database system. It is developed by [Basho Technologies](https://riak.com/).
 
