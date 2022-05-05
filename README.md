@@ -1,9 +1,9 @@
-[logo]: ../img/riak.png
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Riak"
 # Riak overview
 a simple run-through of Riak features and usage
 
 ## Table of contents:
-1. [What does Riak Mean?](#what-does-riak-mean)\
+1. [What does Riak Mean?](#what-does-riak-mean)
     1. [Pros of Riak](#pros-of-using-riak)
     2. [Cons of Riak](#cons-of-using-riak)
 2. [Riak products]
