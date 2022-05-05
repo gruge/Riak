@@ -1,4 +1,4 @@
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Riak"
+[logo]: https://github.com/gruge/Riak/tree/main/img/riak.png "Riak"
 # Riak overview
 a simple run-through of Riak features and usage
 
