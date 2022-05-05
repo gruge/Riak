@@ -1,4 +1,4 @@
-![alt text](riak.png)
+![alt text](img/riak.png)
 # Riak overview
 a simple run-through of Riak features and usage
 
