@@ -1,4 +1,4 @@
-[logo]: https://github.com/gruge/Riak/tree/main/img/riak.png "Riak"
+![alt text](https://github.com/gruge/Riak/tree/main/img/riak.png "Logo Title Text 1")
 # Riak overview
 a simple run-through of Riak features and usage
 
