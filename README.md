@@ -9,7 +9,7 @@ Riak is an open-source, Web scalable distributed database based on the NoSQL and
 Riak is highly distributed database software that provides scalable, reliable performance in variety of different operation environments. 
 
 ## Benefits of NoSQL
-### NoSQL databases offer enterprises important advantages over traditional RDBMS, including:
+#### NoSQL databases offer enterprises important advantages over traditional RDBMS, including:
 
 **Scalability**: NoSQL databases use a horizontal scale-out methodology that makes it easy to add or reduce capacity quickly and non-disruptively with commodity hardware. 
 
