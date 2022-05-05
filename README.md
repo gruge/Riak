@@ -1,4 +1,5 @@
-# Riak 
+# Riak overview
+
 
 ## What Does Riak Mean?
 Riak is an open-source, Web scalable distributed database based on the NoSQL and Dynamo database system. It is developed by Basho Technologies.
