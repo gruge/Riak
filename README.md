@@ -1,4 +1,4 @@
-![alt text](img/riak.png)
+<img align="center" width="100" height="100" src="img/riak.png">
 # Riak overview
 a simple run-through of Riak features and usage
 
