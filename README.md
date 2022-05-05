@@ -35,6 +35,12 @@ Riak is highly distributed database software that provides scalable, reliable pe
  - __Precise search:__ Currently there's no way to tell what data you have in Riak without already knowing a particular bucket/key. There is a way to list the keys for a given bucket but due to performance implications, this is not a viable method to lookup data. Especially when you have a large amount of keys in the bucket.
 
 ## Riak products:
-<p align="center">
-<img src="img/riakkv.png">
-</p>
+
+ ### Riak KV
+ __Riak KV__ is a distributed NoSQL database designed to deliver maximum data availability by distributing data across multiple servers. As long as your Riak KV client can  reach one Riak server, it should be able to write data.
+ 
+ ### Riak TS
+ __Riak TS__ is a distributed NoSQL key/value store optimized for time series data. With TS, you can associate a number of data points with a specific point in time. TS uses discrete slices of time to co-locate data. For example, humidity and temperature readings from a meter reported during the same slice of time will be stored together on disk.
+ 
+ ### Riak CS
+ __Riak CS__ is easy-to-use object storage software built on top of Riak KV, Riak’s distributed database. Riak CS is designed to provide simple, available, distributed cloud storage at any scale, and can be used to build cloud architectures—be they public or private—or as storage infrastructure for heavy-duty applications and services. Riak CS’s API is Amazon S3 compatible and supports per-tenant reporting for use cases involving billing and metering.
