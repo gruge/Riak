@@ -4,8 +4,6 @@ a simple run-through of Riak features and usage
 
 ## Table of contents:
 1. [What does Riak Mean?](#what-does-riak-mean)\
-2. 2
-3. 2
     I. [Pros of Riak](#pros-of-using-riak)
     II.[Cons of Riak]
     III.[Riak usage]
