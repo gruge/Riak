@@ -35,3 +35,6 @@ Riak is highly distributed database software that provides scalable, reliable pe
  - __Precise search:__ Currently there's no way to tell what data you have in Riak without already knowing a particular bucket/key. There is a way to list the keys for a given bucket but due to performance implications, this is not a viable method to lookup data. Especially when you have a large amount of keys in the bucket.
 
 ## Riak products:
+<p align="center">
+<img src="img/riakkv.png">
+</p>
