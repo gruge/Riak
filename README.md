@@ -1,4 +1,6 @@
-<img align="auto" width="500" height="500" src="img/riak.png">
+<p align="center">
+<img width="400" height="400" src="img/riak.png">
+</p>
 
 # Riak overview
 a simple run-through of Riak features and usage
