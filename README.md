@@ -8,9 +8,9 @@ a simple run-through of Riak features and usage
     2. [Cons of Riak](#cons-of-using-riak)
     3. [Riak usage]
 2.[Riak benefits]
-    1. [RDBMS]
-    2. [NoSQL]
-    3. [Dynamo]
+    5. [RDBMS]
+    6. [NoSQL]
+    7. [Dynamo]
 3. [Riak products]
     1. [Riak KV]
     2. [Riak TS]
