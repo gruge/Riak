@@ -14,10 +14,9 @@ a simple run-through of Riak features and usage
     1. [CAP Theorem](#cap-theorem)
     2. [Amazon's Dynamo Paper](#amazons-dynamo-paper)
     3. [Experience running large networks](#experience-running-large-networks-akamai)
-4. [Riak products](#riak-products)
-    1. [Riak KV](#riak-kv)
-    2. [Riak TS](#riak-ts)
-    3. [Riak CS](#riak-cs)
+4. [Map/Reduce Terms](#map-reduce-terms)
+5. [Map/Reduce Overview](#map-reduce-overview)
+6. [Map Phase](#map-phase)
 ## What Does Riak Mean?
 Riak is an open-source, Web scalable distributed database based on the NoSQL and Dynamo database system. It is developed by [Basho Technologies](https://riak.com/).
 
@@ -83,3 +82,17 @@ Riak is highly distributed database software that provides scalable, reliable pe
  
  ### Riak CS
  __Riak CS__ is easy-to-use object storage software built on top of Riak KV, Riak’s distributed database. Riak CS is designed to provide simple, available, distributed cloud storage at any scale, and can be used to build cloud architectures—be they public or private—or as storage infrastructure for heavy-duty applications and services. Riak CS’s API is Amazon S3 compatible and supports per-tenant reporting for use cases involving billing and metering.
+
+## Map/Reduce Terms
+ Keys | Meaning
+--- | ---
+ Phase | A step within a job
+ Job | A sequence of phases and inputs
+ Map | Data collection phase
+ Reduce | Data collation or processing phase
+ 
+ ## Map/Reduce Overview
+  - Map phases execute in parallel with data locality
+  - Reduce phases execute in parallel on the node where job was submitted
+  - Results are not cached or stored
+  - Phases can be written in Erlang or Javascript
