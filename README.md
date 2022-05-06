@@ -17,6 +17,7 @@ a simple run-through of Riak features and usage
 4. [Map/Reduce Terms](#map-reduce-terms)
 5. [Map/Reduce Overview](#map-reduce-overview)
 6. [Map Phase](#map-phase)
+7. [Docker Riak installation](#docker-riak-installation)
 ## What Does Riak Mean?
 Riak is an open-source, Web scalable distributed database based on the NoSQL and Dynamo database system. It is developed by [Basho Technologies](https://riak.com/).
 
@@ -101,3 +102,7 @@ Riak is highly distributed database software that provides scalable, reliable pe
  - Inputs must be bucket/key pairs
  - Must return a list
  - Parallel results are aggregated into a single list
+
+## Docker Riak installation
+A comprehensive guide can be found here: <br>
+https://riak.com/posts/technical/running-riak-in-docker/index.html?p=12629.html
