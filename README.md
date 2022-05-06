@@ -13,7 +13,7 @@ a simple run-through of Riak features and usage
 2. [Influences](#influences)
     1. [CAP Theorem](#cap-theorem)
     2. [Amazon's Dynamo Paper](#amazons-dynamo-paper)
-    3. [Experience running large networks](#experience-running-large-networks)
+    3. [Experience running large networks](#experience-running-large-networks-akamai)
 4. [Riak products](#riak-products)
     1. [Riak KV](#riak-kv)
     2. [Riak TS](#riak-ts)
