@@ -55,11 +55,21 @@ Riak is highly distributed database software that provides scalable, reliable pe
  - __Partition tolerant__ System can handle the failure of individual parts
  
  ### Amazon's Dynamo Paper
- Key | Meaning
+ Keys | Meaning
 --- | ---
  N | The number of replicas
  R | The number of replicas needed for a successful read
  W | The number of replicas needed for a successful write
+ N - R | Read fault tolerance
+ N - W | Write fault tolerance
+ 
+ __N = 4,W = 2, R = 1__
+ __4-2=2__ hosts can be down and __Riak__ can still perform writes
+ __4-1=3__ hosts can be down and __Riak__ can still perform reads
+ 
+ *N can vary per bucket*
+ *R and W can vary per operation*
+
 
  ### Experience running large networks (Akamai)
 
