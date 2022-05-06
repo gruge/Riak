@@ -84,7 +84,7 @@ Riak is highly distributed database software that provides scalable, reliable pe
  __Riak CS__ is easy-to-use object storage software built on top of Riak KV, Riak’s distributed database. Riak CS is designed to provide simple, available, distributed cloud storage at any scale, and can be used to build cloud architectures—be they public or private—or as storage infrastructure for heavy-duty applications and services. Riak CS’s API is Amazon S3 compatible and supports per-tenant reporting for use cases involving billing and metering.
 
 ## Map/Reduce Terms
- Keys | Meaning
+ Words | Meaning
 --- | ---
  Phase | A step within a job
  Job | A sequence of phases and inputs
