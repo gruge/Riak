@@ -67,7 +67,7 @@ Riak is highly distributed database software that provides scalable, reliable pe
  __4-2=2__ hosts can be down and __Riak__ can still perform writes </br>
  __4-1=3__ hosts can be down and __Riak__ can still perform reads 
  
- *N can vary per bucket*
+ *N can vary per bucket* </br>
  *R and W can vary per operation*
 
 
