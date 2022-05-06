@@ -63,7 +63,7 @@ Riak is highly distributed database software that provides scalable, reliable pe
  N - R | Read fault tolerance
  N - W | Write fault tolerance
  
- __N = 4,W = 2, R = 1__
+ __N = 4,W = 2, R = 1__ </br>
  __4-2=2__ hosts can be down and __Riak__ can still perform writes
  __4-1=3__ hosts can be down and __Riak__ can still perform reads
  
