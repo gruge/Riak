@@ -7,9 +7,14 @@ a simple run-through of Riak features and usage
 
 ## Table of contents:
 1. [What does Riak Mean?](#what-does-riak-mean)
-    1. [Pros of Riak](#pros-of-using-riak)
-    2. [Cons of Riak](#cons-of-using-riak)
-2. [Riak products](#riak-products)
+    1. [The advantages](#the-advantages)
+    2. [Pros of Riak](#pros-of-using-riak)
+    3. [Cons of Riak](#cons-of-using-riak)
+2. [Influences](#influences)
+    1. [CAP Theorem](#cap-theorem)
+    2. [Amazon's Dynamo Paper](#amazon's-dynamo-paper)
+    3. [Experience running large networks](#experience-running-large-networks-(akamai))
+4. [Riak products](#riak-products)
     1. [Riak KV](#riak-kv)
     2. [Riak TS](#riak-ts)
     3. [Riak CS](#riak-cs)
@@ -17,7 +22,15 @@ a simple run-through of Riak features and usage
 Riak is an open-source, Web scalable distributed database based on the NoSQL and Dynamo database system. It is developed by [Basho Technologies](https://riak.com/).
 
 Riak is highly distributed database software that provides scalable, reliable performance in variety of different operation environments. 
- 
+ ### The advantages
+ - Availability
+ - Operational simplicity
+ - Scalability
+ - Masterless
+ - Key/Value store
+ - Document-oriented Database
+ - Web-shaped storage
+ - 
  ### Pros of using Riak
  - __Highly available:__ If nodes go offline for any reason, the system still operates.
 
@@ -33,6 +46,14 @@ Riak is highly distributed database software that provides scalable, reliable pe
  - __Dead data resurrection:__ The deletes seem to reappear weeks, even months, after the delete was issued, on rare occasions.
 
  - __Precise search:__ Currently there's no way to tell what data you have in Riak without already knowing a particular bucket/key. There is a way to list the keys for a given bucket but due to performance implications, this is not a viable method to lookup data. Especially when you have a large amount of keys in the bucket.
+
+## Influences:
+
+ ### CAP Theorem
+ 
+ ### Amazon's Dynamo Paper
+ 
+ ### Experience running large networks (Akamai)
 
 ## Riak products:
 
