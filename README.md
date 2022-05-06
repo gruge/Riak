@@ -96,3 +96,8 @@ Riak is highly distributed database software that provides scalable, reliable pe
   - Reduce phases execute in parallel on the node where job was submitted
   - Results are not cached or stored
   - Phases can be written in Erlang or Javascript
+
+## Map Phase
+ - Inputs must be bucket/key pairs
+ - Must return a list
+ - Parallel results are aggregated into a single list
