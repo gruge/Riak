@@ -30,7 +30,7 @@ Riak is highly distributed database software that provides scalable, reliable pe
  - Key/Value store
  - Document-oriented Database
  - Web-shaped storage
- - 
+
  ### Pros of using Riak
  - __Highly available:__ If nodes go offline for any reason, the system still operates.
 
